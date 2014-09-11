@@ -1,0 +1,170 @@
+/* ==================
+General
+================== */
+
+.content {
+  background-color: #fff;
+  min-height: 100%;
+}
+
+#home .content {
+  top: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  z-index: 0;
+}
+
+/* ==================
+Navbar
+================== */
+
+.list-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.list-container ul {
+  font-size: 20px;
+  list-style: none;
+  position: relative;
+  float: left;
+  left: 50%;
+  display: block;
+  margin: 0px;
+}
+
+.list-container ul li {
+  position: relative;
+  display: block;
+  right: 50%;
+  float: left;
+  margin: 0px 20px;
+  padding: 10px 0px;
+}
+
+nav {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  z-index: 2;
+  background-color: #fff;
+  position: fixed;
+}
+
+#home nav {
+  top: -100px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+}
+
+nav.display {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+}
+
+nav a {
+  color: #333;
+}
+
+nav li {
+  border-top: 5px solid #fff;
+}
+
+nav li:hover a {
+  color: #96460b;
+}
+
+nav li:hover {
+  border-top: 5px solid #96460b;
+}
+
+nav hr {
+  margin: 0px;
+  border: solid #6f4726;
+  border-width: 1px 0 0;
+}
+
+/* ==================
+Homepage Header
+================== */
+
+header {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/headerblur1.jpg');
+  background-size: cover;
+  position: fixed;
+}
+
+.header-container {
+  margin: 0px auto;
+  width: 500px;
+  text-align: center;
+  top: 20%;
+  position: relative;
+}
+
+header h1 {
+  font-family: "Arvo";
+  font-weight: 700;
+  font-size: 65px;
+  color: #bc4800;
+  text-shadow: 1px 1px 2px #555;
+}
+
+header p {
+  font-size: 25px;
+  font-family: "Josefin Sans";
+  line-height: 1.75;
+  font-weight: 600;
+  color: #333;
+}
+
+/* ==================
+Articles
+================== */
+
+article {
+  padding: 90px 0px;
+}
+
+article h1 {
+  margin: 0px;
+  padding: 5px 0px;
+  font-family: "Arvo";
+  font-weight: 700;
+}
+
+article h3 {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 30px;
+}
+
+article img {
+    margin: 25px auto;
+    border: 1px solid #333;
+    border-radius: 3px;
+    display: block;
+    box-shadow: 0px 0px 5px 1px #aaa;
+}
+
+article p {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 25px;
+}
