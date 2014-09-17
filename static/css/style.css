@@ -4,13 +4,16 @@ General
 
 .content {
   background-color: #fff;
-  min-height: 100%;
+}
+
+main {
+  position: relative;
+  top: 100%;
 }
 
 .container {
   max-width: 1000px;
   margin: 0px auto;
-  z-index: 0;
 }
 
 /* ==================

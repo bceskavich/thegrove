@@ -16,4 +16,10 @@ function navAppear(){
 
 $(function(){
   navAppear();
+  console.log($(window).height());
+  console.log($("header").height());
+  console.log($("main").height());
+  console.log($("main").offset());
+
+  var height = $(window).height();
 });
