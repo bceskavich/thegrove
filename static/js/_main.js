@@ -20,6 +20,4 @@ $(function(){
   console.log($("header").height());
   console.log($("main").height());
   console.log($("main").offset());
-
-  var height = $(window).height();
 });

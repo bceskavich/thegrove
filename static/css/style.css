@@ -4,11 +4,10 @@ General
 
 .content {
   background-color: #fff;
-  min-height: 100%;
 }
 
 #home .content {
-  top: 100%;
+  top: 100% !important;
   position: relative;
 }
 
@@ -69,7 +68,7 @@ Homepage Header
 ================== */
 
 header {
-  height: 100%;
+  height: 100% !important;
   width: 100%;
   background-image: url('../img/headerblur1.jpg');
   background-size: cover;

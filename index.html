@@ -29,7 +29,10 @@
         <li><a href="#">About</a></li>
       </ul>
     </nav>
-    <header>
+    <header data-bottom-top="background-position: 50% 0px"
+      data-top-top="background-position: 50% -100px"
+      data-anchor-target="main"
+    >
       <div class="header-container">
         <h1>The Grove</h1>
       </div>
@@ -58,7 +61,10 @@
       $(document).foundation();
     </script>
     <script>
-      var s = skrollr.init();
+      var s = skrollr.init({
+        forceHeight: false,
+        smoothScrolling: true
+      });
     </script
   </body>
 </html>
