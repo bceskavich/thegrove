@@ -23,22 +23,23 @@
     <script src="static/js/vendor/modernizr.js"></script>
   </head>
   <body id="home">
-    <nav class="list-container">
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="post.html">Work</a></li>
       </ul>
-      <hr />
     </nav>
-    <header>
+    <header data-center="background-position: 50% 0px;"
+      data-top-bottom="background-position: 50% -100px;"
+      data-anchor-target="main"
+    >
       <div class="header-container">
         <h1>The Grove</h1>
       </div>
     </header>
 
-    <section class="content">
-      <article class="container first">
+    <main class="content">
+      <article class="container">
         <h1>Welcome to The Grove</h1>
         <h3>A first look at our new project.</h3>
 
@@ -50,13 +51,17 @@
       </article>
 
       <hr class="container" />
-    </section>
+    </main>
 
     <script src="static/js/vendor/jquery.js"></script>
     <script src="static/js/foundation.min.js"></script>
-    <script src="static/js/index.js"></script>
+    <script src="static/js/vendor/skrollr.js"></script>
+    <script src="static/js/_main.js"></script>
     <script>
       $(document).foundation();
     </script>
+    <script>
+      var s = skrollr.init();
+    </script
   </body>
 </html>
