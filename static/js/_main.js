@@ -5,19 +5,15 @@ function navAppear(){
   $(window).scroll(function(){
     var scroll = $(document).scrollTop();
 
-    if (scroll >= (height/2)) {
-      $('nav').addClass('display');
+    if (scroll >= (height)) {
+      $('nav').addClass('fixed');
     }
     else {
-      $('nav').removeClass('display');
+      $('nav').removeClass('fixed');
     }
   });
 };
 
 $(function(){
   navAppear();
-  console.log($(window).height());
-  console.log($("header").height());
-  console.log($("main").height());
-  console.log($("main").offset());
 });

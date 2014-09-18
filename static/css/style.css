@@ -25,34 +25,34 @@ nav {
   font-family: "Josefin Sans";
   font-weight: 700;
   z-index: 2;
-  position: fixed;
-  bottom: 0px;
-  opacity: 0;
-  transition: .25s;
+  top: 100%;
+  position: relative;
+  background-color: white;
+  width: 100%;
 }
 
-nav.display {
-  opacity: 1;
-  transition: .25s;
+nav.fixed {
+  position: fixed;
+  top: 0%;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0px;
-  padding: 25px 0px 0px 50px;
   font-size: 20px;
+  height: 50px;
 }
 
 nav li {
-  border: 1px solid #000;
-  margin: 25px 0px;
-  border-radius: 5px;
+  border-top: 1px solid #fff;
+  display: inline;
+  line-height: 50px;
+  padding: 14px 10px;
+  margin: 0px 5px;
 }
 
 nav a {
   color: #333;
-  padding: 10px 25px;
-  display: block;
 }
 
 nav li:hover a {
@@ -60,7 +60,7 @@ nav li:hover a {
 }
 
 nav li:hover {
-  border: 1px solid #96460b;
+  border-top: 1px solid #96460b;
 }
 
 /* ==================
@@ -81,13 +81,14 @@ header {
   text-align: center;
   top: 20%;
   position: relative;
+  opacity: 0;
 }
 
 header h1 {
   font-family: "Arvo";
   font-weight: 700;
   font-size: 65px;
-  color: #bc4800;
+  color: #415464;
   text-shadow: 1px 1px 2px #555;
 }
 

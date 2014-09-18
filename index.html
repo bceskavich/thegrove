@@ -23,20 +23,21 @@
     <script src="static/js/vendor/modernizr.js"></script>
   </head>
   <body id="home">
+    <header>
+      <div class="header-container"
+        data-100-center-top="opacity: 1;"
+        data-top-top="opacity: 0"
+        data-anchor-target="main">
+        <h1>The Grove</h1>
+      </div>
+    </header>
+
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">About</a></li>
       </ul>
     </nav>
-    <header data-bottom-top="background-position: 50% 0px"
-      data-top-top="background-position: 50% -100px"
-      data-anchor-target="main"
-    >
-      <div class="header-container">
-        <h1>The Grove</h1>
-      </div>
-    </header>
 
     <main class="content">
       <article class="container">
@@ -55,7 +56,7 @@
 
     <script src="static/js/vendor/jquery.js"></script>
     <script src="static/js/foundation.min.js"></script>
-    <script src="static/js/vendor/skrollr.js"></script>
+    <script src="static/js/vendor/skrollr.min.js"></script>
     <script src="static/js/_main.js"></script>
     <script>
       $(document).foundation();
