@@ -4,6 +4,7 @@ General
 
 .content {
   background-color: #fff;
+  min-height: 150%;
 }
 
 #home .content {
@@ -21,12 +22,23 @@ General
 Navbar
 ================== */
 
-.list-container {
+nav {
   width: 100%;
   overflow: hidden;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  z-index: 2;
+  background-color: #fff;
+  position: relative;
+  top: 100%;
 }
 
-.list-container ul {
+nav.fixed {
+  position: fixed;
+  top: 0%;
+}
+
+nav ul {
   font-size: 20px;
   list-style: none;
   position: relative;
@@ -36,21 +48,13 @@ Navbar
   margin: 0px;
 }
 
-.list-container ul li {
+nav ul li {
   position: relative;
   display: block;
   right: 50%;
   float: left;
   margin: 0px 20px;
   padding: 10px 0px;
-}
-
-nav {
-  font-family: "Josefin Sans";
-  font-weight: 700;
-  z-index: 2;
-  background-color: #fff;
-  position: fixed;
 }
 
 nav a {
@@ -117,7 +121,8 @@ Articles
 ================== */
 
 article {
-  padding: 90px 0px;
+  padding: 50px 0px 90px 0px;
+  position: relative;
 }
 
 article h1 {
