@@ -79,6 +79,22 @@ nav hr {
   border-width: 1px 0 0;
 }
 
+/* Post Page Nav Arrow */
+
+.arrow {
+  font-size: 40px;
+  position: fixed;
+  margin: 20px 20px;
+}
+
+.arrow a {
+  color: #333;
+}
+
+.arrow:hover a {
+  color: #96460b;
+}
+
 /* ==================
 Homepage Header
 ================== */
