@@ -21,38 +21,44 @@ General
 Navbar
 ================== */
 
+.list-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.list-container ul {
+  font-size: 20px;
+  list-style: none;
+  position: relative;
+  float: left;
+  left: 50%;
+  display: block;
+  margin: 0px;
+}
+
+.list-container ul li {
+  position: relative;
+  display: block;
+  right: 50%;
+  float: left;
+  margin: 0px 20px;
+  padding: 10px 0px;
+}
+
 nav {
   font-family: "Josefin Sans";
   font-weight: 700;
   z-index: 2;
-  top: 100%;
-  position: relative;
-  background-color: white;
-  width: 100%;
-}
-
-nav.fixed {
+  background-color: #fff;
   position: fixed;
-  top: 0%;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0px;
-  font-size: 20px;
-  height: 50px;
-}
-
-nav li {
-  border-top: 1px solid #fff;
-  display: inline;
-  line-height: 50px;
-  padding: 14px 10px;
-  margin: 0px 5px;
 }
 
 nav a {
   color: #333;
+}
+
+nav li {
+  border-top: 5px solid #fff;
 }
 
 nav li:hover a {
@@ -60,7 +66,13 @@ nav li:hover a {
 }
 
 nav li:hover {
-  border-top: 1px solid #96460b;
+  border-top: 5px solid #96460b;
+}
+
+nav hr {
+  margin: 0px;
+  border: solid #6f4726;
+  border-width: 1px 0 0;
 }
 
 /* ==================
