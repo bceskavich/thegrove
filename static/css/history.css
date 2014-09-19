@@ -1,0 +1,60 @@
+.history-container {
+  width: 50000px;
+  height: 600px;
+  margin-top: 100px;
+  border-bottom: 5px solid #bc4800;
+  padding: 0px;
+}
+
+.history-container .item {
+  width: 500px;
+  padding: 20px;
+  border: 2px dotted #415464;
+  border-radius: 2px;
+  position: absolute;
+}
+
+.history-container h1 {
+  font-size: 25px;
+}
+
+.history-container h3 {
+  font-size: 20px;
+}
+
+.history-container p {
+  font-size: 20px;
+}
+
+.history-container #one {
+  left: 100px;
+  opacity: 1;
+}
+
+.history-container #two {
+  left: 1000px;
+}
+
+.history-container .item {
+  opacity: 1;
+  transition: .5s;
+}
+
+.history-container .show {
+  opacity: 1;
+  transition: .5s;
+}
+
+.history-container svg {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 500px;
+}
+
+.history-container svg line {
+  stroke-width: 5px;
+  stroke: #415464;
+  stroke-dasharray: 2, 2;
+  opacity: 1;
+}

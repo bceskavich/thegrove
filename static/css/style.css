@@ -4,12 +4,12 @@ General
 
 .content {
   background-color: #fff;
-  min-height: 150%;
 }
 
 #home .content {
   top: 100% !important;
   position: relative;
+  min-height: 150%;
 }
 
 .container {
